@@ -1,7 +1,6 @@
 const mongoose = require('mongoose');
 const timestamp = require('mongoose-timestamp');
 
-// unique:منحصر بفرد باشه و مثلش نباشه
 const userSchema = new mongoose.Schema({
   email : { type: String , required: true , unique:true },
   name : { type: String , required: true , unique:true },
