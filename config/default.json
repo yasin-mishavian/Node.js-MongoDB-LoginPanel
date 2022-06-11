@@ -2,5 +2,6 @@
   "name" : "auth master" , 
   "db" : {
     "address" : "mongodb://localhost:27017/authmaster"
-  }
+  },
+  "jwt_key": "MgjkeVhplm()b$^&$!RVHJISD5NYls!#&bJ*^FGsd@#$^&G$edg%"
 }
